@@ -1,3 +1,11 @@
+###Where is the code?
+
+You could find my code here: 2019DeepSpace/Test2/src/main/java/org/usfirst/frc7586/Test2/
+
+###What should you do if you what to use it?
+
+You should clone the folder: Test2 and open it in VS Code, then use the wpilib tool to build and deploy.
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/denniswu28/2019FRC-Team7586-Test2/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
@@ -5,8 +13,6 @@ You can use the [editor on GitHub](https://github.com/denniswu28/2019FRC-Team758
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
 Syntax highlighted code block
