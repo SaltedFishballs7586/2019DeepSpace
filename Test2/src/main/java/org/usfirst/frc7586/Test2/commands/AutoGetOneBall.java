@@ -22,7 +22,7 @@ import jaci.pathfinder.PathfinderFRC;
 import jaci.pathfinder.Trajectory;
 import jaci.pathfinder.followers.EncoderFollower;
 
-public class AutoPutOneObj extends Command {
+public class AutoGetOneBall extends Command {
   private static final int k_ticks_per_rev = 1024;
   private static final double k_wheel_diameter = 4.0 / 12.0;
   private static final double k_max_velocity = 10;
@@ -37,9 +37,9 @@ public class AutoPutOneObj extends Command {
   private EncoderFollower m_right_follower;
   private Notifier m_follower_notifier;
 
-  private static final String kPathName = "goAndPut_from_Blue1_to_BlueLeft3";
+  private static final String kPathName = "getOneBall_from_Blue1_to_BlueLeft3";
 
-  public AutoPutOneObj() {
+  public AutoGetOneBall() {
     // Use requires() here to declare subsystem dependencies
     // eg. requires(chassis);
     requires(Robot.drivetrain);

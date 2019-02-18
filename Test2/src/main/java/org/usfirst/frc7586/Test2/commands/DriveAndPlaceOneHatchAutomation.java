@@ -8,6 +8,7 @@
 package org.usfirst.frc7586.Test2.commands;
 
 import edu.wpi.first.wpilibj.command.CommandGroup;
+import edu.wpi.first.wpilibj.command.Subsystem;
 
 public class DriveAndPlaceOneHatchAutomation extends CommandGroup {
   /**
@@ -19,6 +20,7 @@ public class DriveAndPlaceOneHatchAutomation extends CommandGroup {
     // addSequential(new Command2());
     // these will run in order.
     addSequential(new AutoPutOneObj());
+    addSequential(new AutoGetOneBall());
     // To run multiple commands at the same time,
     // use addParallel()
     // e.g. addParallel(new Command1());
